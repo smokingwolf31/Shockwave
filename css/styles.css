@@ -1,7 +1,7 @@
 body {
     position: relative;
     top: 10px;
-    background-color: #fd0000;
+    background-color: #ff00ea;
     min-width: 420px;
     min-height: 500px;
 }
@@ -77,7 +77,7 @@ body {
     height: 50%;
 }
 
-.GameBaord {
+.GameBoard {
     position: absolute;
     top: 58%;
     left: 50%;
@@ -91,8 +91,6 @@ body {
     height: 65%;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     grid-gap: 10px;
 }
 
